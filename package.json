@@ -6,11 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "node", "npm"],
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
   "author": "Alexander Salgado <alexander@masteryroyal.com>",
   "license": "MIT",
   "bin": {
-    "sgda": "./bin/global.js"
+    "sgda": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandersgd/npmgenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alexandersgd/npmgenerator/issues"
+  },
+  "homepage": "https://github.com/Alexandersgd/npmgenerator#readme"
 }
